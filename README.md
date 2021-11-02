@@ -9,12 +9,12 @@ See [examples](./examples).
 ## Integration Testing
 
 Most tests require a running substrate node to communicate with. This is done by spawning an instance of the
-substrate node per test. It requires an executable binary `substrate` at [`monthly-2021-10`](https://github.com/paritytech/substrate/releases/tag/monthly-2021-10) on your path.
+substrate node per test. It requires an executable binary `substrate` at [`monthly-2021-09`](https://github.com/paritytech/substrate/releases/tag/monthly-2021-09) on your path.
 
 This can be installed from source via cargo:
 
 ```bash
-cargo install --git https://github.com/paritytech/substrate node-cli --tag=monthly-2021-10 --force
+cargo install --git https://github.com/paritytech/substrate node-cli --tag=monthly-2021-09 --force
 ```
 
 **Alternatives**

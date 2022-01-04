@@ -101,6 +101,7 @@ pub use crate::{
     metadata::{
         Metadata,
         MetadataError,
+        ModuleMetadata,
     },
     rpc::{
         BlockNumber,

@@ -37,7 +37,7 @@ pretty_assertions = "0.6.1"
 substrate-subxt = { path = ".." }
 trybuild = "1.0.38"
 
-sp-keyring = { git = "https://github.com/chainflip-io/substrate.git", tag = "merge-config-option" }
+sp-keyring = { git = "https://github.com/chainflip-io/substrate.git", tag = "local-grandpa-hacking" }
 
 [[test]]
 name = "balances"

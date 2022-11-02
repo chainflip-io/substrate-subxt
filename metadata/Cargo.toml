@@ -14,13 +14,21 @@ description = "Command line utilities for checking metadata compatibility betwee
 [dependencies]
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive", "full"] }
 frame-metadata = "15.0.0"
-scale-info = "2.0.0"
-sp-core = { version = "6.0.0"  }
+
+[dependencies.sp-core]
+git = 'https://github.com/chainflip-io/substrate.git'
+tag = 'chainflip-monthly-2022-06+01'
+
+[dependencies.scale-info]
+version = '2.1.1'
 
 [dev-dependencies]
 bitvec = { version = "1.0.0", default-features = false, features = ["alloc"] }
 criterion = "0.4"
-scale-info = { version = "2.0.0", features = ["bit-vec"] }
+
+[dev-dependencies.scale-info]
+version = '2.1.1'
+features = ["bit-vec"]
 
 [lib]
 # Without this, libtest cli opts interfere with criteron benches:
